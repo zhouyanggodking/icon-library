@@ -1,7 +1,9 @@
 import Circle from '../packages/circle/index';
+import Close from '../packages/close/index';
 
 const components = [
-  Circle
+  Circle,
+  Close
 ];
 
 const install = (Vue) => {
@@ -16,5 +18,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export {
   install,
-  Circle
+  Circle,
+  Close
 };

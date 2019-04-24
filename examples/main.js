@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import { Circle } from '../src/index';
+import { Circle, Close } from '../src/index';
 
 Vue.use(Circle);
+Vue.use(Close);
 
 Vue.config.productionTip = false
 
